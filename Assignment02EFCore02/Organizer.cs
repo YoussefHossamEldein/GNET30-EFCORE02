@@ -8,7 +8,7 @@ namespace Assignment02EFCore02
 {
     internal class Organizer
     {
-        public  MyProperty { get; set; }
+        public  int Id { get; set; }
         public string Name { get; set; }
         public string Company { get; set; }
         public bool IsApplicable { get; set; }
