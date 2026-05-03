@@ -12,7 +12,7 @@ namespace Assignment02EFCore02
     {
 
  
-        public DbSet<Address> Addresses { get; set; }
+     
         public DbSet<Attendee> Attendees { get; set; }
         public DbSet<Badge> Badges { get; set; }
         public DbSet<Event> Events { get; set; }
